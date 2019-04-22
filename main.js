@@ -253,7 +253,7 @@ $(function() {
 
     // Randomize order of other players boxes
     function reorder() {
-      alert('REORDER FUNCTION')
+      //alert('REORDER FUNCTION')
        var grp = $("#others").children();
        var cnt = grp.length;
 
