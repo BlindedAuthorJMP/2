@@ -418,7 +418,7 @@ $('.btn-like').attr("disabled", true);
       var UV =2;
 
       // Redirect link
-    location.href = window.redirect+'&a='+window.participant+'&b='+window.condition+'&c='+encodeURI(window.username)+'&d='+window.avatarexport+'&e='+encodeURI(window.description)+'&f='+encodeURI(AnzahlDerLikes)+'&g='+encodeURI(AnzahlDerDisLikes)+'&g='+encodeURI(AnzahlDerDisLikes)+'&i='+encodeURI(UV);  // change p->a, c->b, u ->c, av->d, d->e
+    location.href = window.redirect+'&a='+window.participant+'&b='+window.condition+'&c='+encodeURI(window.username)+'&d='+window.avatarexport+'&e='+encodeURI(window.description)+'&f='+encodeURI(AnzahlDerLikes)+'&g='+encodeURI(AnzahlDerDisLikes)+'&h='+encodeURI(UV);  // change p->a, c->b, u ->c, av->d, d->e
 
 
     });
