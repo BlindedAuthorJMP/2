@@ -451,7 +451,7 @@ $('.btn-like').attr("disabled", true);
 
 	var urlHasQuestionMark = (window.redirect.indexOf("?") > -1);
 	if(!urlHasQuestionMark) {
-		window.redirect = window.redirect+"?redir=1";
+		window.redirect = window.redirect+"?";
 	}
 	//alert(window.redirect);
 
