@@ -404,7 +404,7 @@ $('.btn-like').attr("disabled", true);
 		  columnWidth : 10
 		});
 
-
+//
     // Redirect, default after 180000ms = 180s = 3min
     setTimeout(function() {
 
