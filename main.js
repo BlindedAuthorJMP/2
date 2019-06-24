@@ -239,7 +239,8 @@ $('.btn-like').attr("disabled", true);
         $('#timer').text('00:00');
         DeaktiviereLike();
         DeaktiviereDisLike();
-	 setTimeout(function() {
+	// Redirect, default after 180000ms = 180s = 3min
+    setTimeout(function() {
 
    // $(window).unbind('beforeunload');
 
@@ -256,9 +257,13 @@ $('.btn-like').attr("disabled", true);
 
     });
 
-    }); // timing for task		
+    }); // timing for task
+
+  }
+	
   		}
-  	});
+  	});	
+  		
 
 		users = {
 		  "posts" : [
