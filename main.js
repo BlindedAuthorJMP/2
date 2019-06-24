@@ -239,7 +239,7 @@ $('.btn-like').attr("disabled", true);
         $('#timer').text('00:00');
         DeaktiviereLike();
         DeaktiviereDisLike();
-	// Redirect, default after 180000ms = 180s = 3min
+		// Redirect, default after 180000ms = 180s = 3min
     setTimeout(function() {
 
    // $(window).unbind('beforeunload');
@@ -262,8 +262,7 @@ $('.btn-like').attr("disabled", true);
   }
 	
   		}
-  	});	
-  		
+  	});  		
 
 		users = {
 		  "posts" : [
@@ -608,4 +607,4 @@ $('.btn-like').attr("disabled", true);
   // Start with the intro slide
   init_intro();
 
-};
+});
