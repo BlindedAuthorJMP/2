@@ -423,7 +423,7 @@ $('.btn-like').attr("disabled", true);
 
     });
 
-    },window.settings.tasklength); // timing for task
+    },180500); // timing for task
 
   }
 
