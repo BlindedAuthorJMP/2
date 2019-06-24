@@ -608,4 +608,4 @@ $('.btn-like').attr("disabled", true);
   // Start with the intro slide
   init_intro();
 
-});
+};
